@@ -117,11 +117,11 @@ darkModeInput.addEventListener("change", function () {
 function darkMode() {
   if (darkModeInput.checked) {
     document.documentElement.style.cssText =
-      "--bg-dark: #fff; --text-color: #334155; --card-bg: #fff; --sidebar-bg: #1e293b;";
+      "--bg-dark: #fff; --text-color: #334155; --card-bg: #fff; --sidebar-bg: #1e293b; --inputModal-bg: #fff";
     document.body.style.cssText = "color: #f4f6f9;";
   } else {
     document.documentElement.style.cssText =
-      "--bg-dark: #010814; --text-color: #fff; --card-bg: #0c131f; --sidebar-bg: #0c131f;";
+      "--bg-dark: #010814; --text-color: #fff; --card-bg: #0c131f; --sidebar-bg: #0c131f; --inputModal-bg: #0c131f;";
     document.body.style.cssText = "color: var(--bg-dark);";
   }
 }

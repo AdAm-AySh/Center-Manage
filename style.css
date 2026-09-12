@@ -21,6 +21,7 @@
   --border-color: #e2e8f0;
   --overlay-bg: rgba(0, 0, 0, 0.5);
   --sidebar-mobile-bg: rgba(0, 0, 0, 0.5);
+  --inputModal-bg: #0c131f;
 }
 
 * {
@@ -660,7 +661,7 @@ input:not(.modal .modal-content input, .group-box input) {
 }
 
 .modal-content input {
-  background-color: var(--sidebar-bg);
+  background-color: var(--inputModal-bg);
   padding: 10px;
   border: none;
   border-bottom: solid 1px var(--border-color);
